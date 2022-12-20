@@ -21,6 +21,6 @@ gulp.task('minify', () => {
     ])
     .pipe(concat('all.css'))
     .pipe(cleanCSS())       
-    .pipe(gulp.dest('dest/css')); 
+    .pipe(gulp.dest('dest/css'));
   });
   
